@@ -22,7 +22,7 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_DB: shop_db
+      POSTGRES_DB: epic_db2
       POSTGRES_USER: akyl_net
       POSTGRES_PASSWORD: 1
     volumes:
